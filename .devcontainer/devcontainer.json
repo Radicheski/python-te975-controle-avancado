@@ -1,0 +1,19 @@
+{
+    "image": "jupyter/minimal-notebook:2023-03-20",
+    "mounts": [
+        {
+            "source": "${localWorkspaceFolder}/src",
+            "target": "/home/jovyan/work",
+            "type": "bind"
+        }
+    ],
+    "customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python"
+            ]
+		}
+    }
+}
